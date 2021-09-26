@@ -52,7 +52,9 @@
 <body>
         <form method="post">
         <fieldset style="width: 600px;">
-            <legend><b>Registration </b></legend>
+		
+            <h1><b>Registration Form</b></h1>
+            <hr>
 <table>
             <tr>
                 <td><label for="">First Name </label></td>
