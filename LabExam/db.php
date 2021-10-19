@@ -7,7 +7,7 @@ public function __construct()
  $dbhost = "localhost";
  $dbuser = "root";
  $dbpass = "";
- $db = "aiub";
+ $db = "AIUB";
 
  $this->con = mysqli_connect("localhost", "root", "", "AIUB");
            if(!$this->con)
