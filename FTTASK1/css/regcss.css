@@ -1,0 +1,59 @@
+<style>
+               
+               body
+{
+               background-color: lightblue;
+}
+               
+         .highlight
+         {
+           background-color: #6600cc;
+         }
+         .hid
+         {
+           background-color: #cccccc;
+         }
+
+                #sam1
+                {
+                  color: white;
+                 }
+                #sam2
+                {
+                  color: white;
+                 }
+                 #sam3
+                {
+                  color: white;
+                 }
+                 #sam4
+                {
+                 background-color: #0066ff;
+                 color: white;
+                 }
+                 #sam5
+                {
+                 background-color: #0066ff;
+                 color: white;
+                 }
+
+		.h
+		{
+			color: black;
+		}
+
+		.hd
+		{
+			
+                        color: #6600cc;
+		}
+		.fom
+		{
+			background-color: yellow;
+		}
+           fieldset
+	    {
+	    	width: 400px;
+	    }
+
+	</style>
