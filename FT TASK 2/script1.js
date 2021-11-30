@@ -1,23 +1,40 @@
-const name = document.getElementById('name');
-const password = document.getElementById('password');
-const email = document.getElementById('email');
-const form = document.getElementById('form');
-const errorElement = document.getElementById('error');
+const name = document.getElementById('name')
+const password = document.getElementById('password')
+const form = document.getElementById('form1')
+const email = document.getElementById('email')
+const errorElement = document.getElementById('error')
 
-form.addEventListener('submit', (e) =>
-{
-let messages =[]
-if (name.value === '' || name.value == null) {
-    messages.push('Name is required')
-}
-if (messages.length > 8) {
+form1.addEventListener('submit',(e) => {
 
-    errorElement.innerText = messages.join(',')
-}
-if (password.value.length<=8)
-{
-    messages.push('password must be longer than 8 characters')
-}
-if (email.value === '' || email.value == null || (email.value "@")!== fals) {
-    messages.push('Email is not valid')
-}})
+ let messages = []
+ 
+    if(name.value === '' || name.value == null)
+    {
+        messages.push('name is required')
+    }
+    
+
+
+    if(password.value.length <= 8)
+    {
+        messages.push('password is too short')
+    } 
+
+    if(emailValue === '') {
+        messages.push('Email cannot be blank');
+    }
+
+
+
+    if(messages.length > 0)
+    {
+         e.preventDefault()
+         errorElement.innerText = messages.join(', ')
+    }
+
+
+
+
+
+} )
+
